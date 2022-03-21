@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
+
 import java.util.Scanner;
->>>>>>> aa
+
 
 public class score {
 
@@ -9,9 +8,7 @@ public class score {
 		// TODO Auto-generated method stub
 
 		int score;
-		
-<<<<<<< HEAD
-=======
+
 	Scanner input = new Scanner(System.in);
 			
 			System.out.print("성적을 입력하시오: ");
@@ -26,7 +23,7 @@ public class score {
 				System.out.println("70점 이상 합격");
 			else
 				System.out.println("불합격");
->>>>>>> aa
+
 		
 		
 		

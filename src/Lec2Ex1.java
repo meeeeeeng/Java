@@ -17,9 +17,9 @@ public class Lec2Ex1 {
 		num2=input.nextInt();
 		
 		if(num1>num2){
-			System.out.println(num1+" > "+num2);}	
+			System.out.println(num1+" > "+num2+"\n"+num1+"이(가) 더 큽니다.");}	
 		else if(num1<num2) {
-			System.out.println(num1+" < "+num2);}	
+			System.out.println(num1+" < "+num2+"\n"+num2+"이(가) 더 큽니다.");}	
 		else {
 			System.out.println(num1+" = "+num2);}	
 		

@@ -17,6 +17,6 @@ public class CheckInput {
 		
 			}
 	
-			System.out.println("사용자가 입력한 월은 " + mon);
+		//System.out.println("사용자가 입력한 월은 " + mon);
 	}
 	

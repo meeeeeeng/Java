@@ -12,18 +12,16 @@ public class Lec3Ex2 {
 		
 		System.out.print("양의 정수를 입력하시오: ");
 		num=input.nextInt();
-		System.out.print(num+"소수: ");
+		System.out.print(num+"약수: ");
 		
 		for(i=1;i<=num;i++)
 		{
-			if(i%num == 0)
+			if(num%i == 0)
 			{
 				System.out.print(i);
-				
+				System.out.print(" ");
 			}
 				
-			System.out.print(" ");
-			
 		}
 		
 		
