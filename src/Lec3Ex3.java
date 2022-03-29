@@ -1,35 +1,44 @@
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Lec3Ex3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Scanner input = new Scanner(System.in);
+		//Scanner input = new Scanner(System.in);
 		
-		int num=100;
-		int i=0;
+		
+		int i;
+		int j;
 		int count = 0;
 		
-		//System.out.print("양의 정수를 입력하시오: ");
-		//num=input.nextInt();
-		System.out.print(num+"소수: ");
+		System.out.print("1-1000까지 소수 :  ");
 		
-		for(i=1;i<=num;i++)
-		{
-			if(i/2<=1&&i/3<=1){
-				if(i/5<=1&&i/7<=1) {
-					if(Math.sqrt(i)<=i) {
-				    System.out.print(i);
-					System.out.print(" ");
-					}
-				}
-			}
-				
-		}
+        for(i=2; i<=1000; i++) // 1은 소수가 아니기 때문에 2부터 시작
+        {
+            for(j=2; j<=i; j++)
+            {
+                 if(i%j ==0) 
+                 {
+                      count ++;
+                 }    
+            }
+            
+            
+            if(count==1)
+            {
+                 System.out.print(i+" ");
+            }
+            count=0;
+        }
+
+
+	}
+}	
 		
 		
-	}}
+		
+	
 
 

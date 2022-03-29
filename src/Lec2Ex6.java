@@ -9,19 +9,16 @@ public class Lec2Ex6 {
 		
 		for(i=0;i<s.length;i++){
 		
-			if(s[i]<s[++i]) {
+			if(s[i]<s[j]) {
 				lit=s[i];
-				
-			
-			//for(j=0;j<s.length;j++)
-				
-				
-				System.out.println(lit+"ÀÌ ÃÖ¼Ú°ª!");
+				++j;
 			}
-			
 			
 		}
 			
+		System.out.println(lit+"ÀÌ(°¡) ÃÖ¼Ú°ª!");	
 	}
-
+		
 }
+
+
