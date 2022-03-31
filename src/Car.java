@@ -3,10 +3,31 @@ import java.util.Scanner;
 public class Car {
 
 	
-		String color;
-		int gear;
-		int speed;
+		
+		private int gear;
+		private int speed;
 
+		private int id;
+		private static int numbers=0;
+		private String model;
+		private String color;
+		
+		
+		public Car(String m,String c,int s) {
+			model=m;
+			color=c;
+			speed=s;
+			
+			id=++numbers;
+			
+		}
+		
+		public static int getNumberOfCars(){
+			return numbers;
+			
+		}
+		
+		
 		void changeGear() {
 			
 			int in;

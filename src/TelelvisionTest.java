@@ -3,9 +3,9 @@ public class TelelvisionTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Television mytv = new Television();
+		Television mytv = new Television(7,10,true);
 		
-		mytv.channel = 7;
+		/*mytv.channel = 7;
 		mytv.volume = 9;
 		mytv.onOff = true;
 		int ch = mytv.getChannel();
@@ -33,7 +33,9 @@ public class TelelvisionTest {
 		
 		int chh =mytv.getChannel();
 		
-		System.out.println("현재 채널은 "+chh+"입니다.");
+		System.out.println("현재 채널은 "+chh+"입니다.");*/
+		
+		mytv.print();
 		
 		
 	}
