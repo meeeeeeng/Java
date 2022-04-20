@@ -14,7 +14,7 @@ class Bank {
 class BadBank extends Bank{
 	
 	
-	@override
+	
 	double getInterestRate(){
 			
 			return  10.0;}
