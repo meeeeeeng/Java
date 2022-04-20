@@ -9,5 +9,7 @@ public class Account {
 	public void setName(String name) {	this.name=name;}
 	public int getBalance() {	return balance;}
 	public void setBalancec(int balance) { this.balance=balance;}
-
+	  
 }
+
+
