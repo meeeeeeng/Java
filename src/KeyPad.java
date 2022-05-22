@@ -1,7 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
 
+import javax.swing.*;
 public class KeyPad extends JFrame  implements ActionListener {
 
 	
@@ -21,6 +24,16 @@ public class KeyPad extends JFrame  implements ActionListener {
 			btn.setPreferredSize(new Dimension(100,100));
 			panel.add(btn);
 		}
+		pack();
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
+		}
+		@Override
+		public void actionPerformed(ActionEvent e) {
+		String actionCommand = e.getActionCommand();
+		txt.setText(txt.getText() + actionCommand);
+		}
+		public static void main(String[] args) {
+		new KeyPad();
+		}
 	}
-	
-}
