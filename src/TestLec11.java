@@ -14,7 +14,8 @@ public class TestLec11 {
 		
 		byte[] buf=new byte[100];
 		System.out.println("문자열을 입력하시오: ");
-		throw IOException; //System.in.read(buf);
+		throw IOException; 
+		//System.in.read(buf);
 		return new String(buf);
 		
 		
