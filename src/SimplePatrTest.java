@@ -3,7 +3,7 @@ public class SimplePatrTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SimplePatr<String> pair=new SimplePatr<String>("apple","tomato");
+		SimplePar<String> pair=new SimplePar<String>("apple","tomato");
 		System.out.println(pair.getFirst());
 		System.out.println(pair.getSecond());
 		
@@ -12,11 +12,11 @@ public class SimplePatrTest {
 
 }
 
-		public class SimplePatr<T>{
+		public class SimplePar<T>{
 			
 				private T data1;
 				private T data2;
-				public SimplePatr(T data1,T data2) {
+				public SimplePar(T data1,T data2) {
 					this.data1=data1;
 					this.data2=data2;
 					
